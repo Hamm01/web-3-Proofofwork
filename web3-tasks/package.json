@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "Converting the Hashing is a process that transforms input data (of any size) into a fixed-size string of characters.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bs58": "^6.0.0"
+  }
 }
