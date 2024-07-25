@@ -30,3 +30,12 @@ Common Asymmetric Encryption Algorithms:
         -- We will use the public and private key pairs with these library to sign the message and then verify using the public key
 
 4.  ethers library for ethererum ecosystem (Elliptic Curve Digital Signature Algorithm)
+
+Npm libraries
+
+```
+npm i @noble/ed25519  @noble/secp256k1 @solana/web3.js ethers
+// to run the specific typescript file
+npx tsx index.ts
+
+```
